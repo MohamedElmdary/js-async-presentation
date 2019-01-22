@@ -1,7 +1,6 @@
 # JavaScript Async Presentation
 <img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" />
 
----
 ### porject structure
 ```
 js-async-presentation
@@ -38,13 +37,11 @@ $ npm install
 in package.json shown in project statuc tree you will find **scripts** note which includes each individual script for each example.
 ```
 $ yarn <script name>
-------------------------
 e.g $ yarn block
 ```
 _OR_
 ```
 $ npm run <script name>
-------------------------
 e.g $ npm run block
 ```
 
