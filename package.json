@@ -4,7 +4,10 @@
   "description": "javascript async presentation",
   "scripts": {
     "block": "ts-node content/block.concept",
-    "cb": "ts-node content/examples/callback",
+    "callback": "ts-node content/examples/callback",
+    "promise": "ts-node content/examples/promise",
+    "asyncawait": "ts-node content/examples/async-await",
+    "observable": "ts-node content/examples/observable",
     "test": "jest test/*"
   },
   "main": "index.js",
