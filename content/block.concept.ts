@@ -1,3 +1,5 @@
+declare var setTimeout: any;
+declare var console: any;
 /**
  * @example
  * the following two examples shows how javascript non-blocking code works
@@ -14,14 +16,14 @@
  *          - "outside setTimeout 1"
  *          - "inside setTimeout 1"
 */
-function example1() {
+function example1(): void {
     setTimeout(() => {
         console.log("inside setTimeout 1");
     }, 0);
 
     console.log("outside setTimeout 1");
 }
-// example1();
+example1();
 
 /**
  * @example
@@ -29,7 +31,7 @@ function example1() {
  *          - "outside setTimeout 2, i: 1000000000"
  *          - "inside setTimeout 2"
 */
-function example2() {
+function example2(): void {
     setTimeout(() => {
         console.log("inside setTimeout 2");
     }, 0);
