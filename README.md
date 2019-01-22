@@ -1,7 +1,5 @@
 # JavaScript Async Presentation
 <img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" />
-<a href="https://discord.gg/G7Qnnhy">
-<img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
 
 ---
 ### porject structure
