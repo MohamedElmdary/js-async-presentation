@@ -33,7 +33,7 @@ _OR_
 $ npm install
 ```
 * to try each example
-<br>
+
 in package.json shown in project statuc tree you will find **scripts** note which includes each individual script for each example.
 ```
 $ yarn <script name>
