@@ -2,7 +2,7 @@ declare var setTimeout: any;
 declare var console: any;
 /**
  * @example
- * the following two examples shows how javascript non-blocking code works
+ * the following two examples show how javascript non-blocking code works
 */
 
 /**
